@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Estrangeiro?</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro?</h1>
+    <label for="txtnac">Terra Natal: </label>
+    <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Descobrir" onclick="descobrir()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function descobrir(){
+            var txtnac = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#res')
+            var nac = String(txtnac.value)
+            res.innerHTML = `<p>Seu país é ${nac}`
+            if (nac == 'Brasil') {
+                res.innerHTML += '<p>Você é <strong>Brasileiro</strong>'
+            }else {
+                res.innerHTML += '<p>Você é <strong>Estrangeiro</strong>'
+            }
+        }
+    </script>
+</body>
+</html>
