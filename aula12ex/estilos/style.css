@@ -7,9 +7,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: lightblue;
-    font: normal 15pt arial;
-    color: var(--cor3);
+    background-color: white;
+    font: normal 18pt arial;
+    color: black;
 }
 
 header {
@@ -17,6 +17,7 @@ header {
 }
 
 section {
+    font-size: 1.5em;
     padding: 10px;
     display: block;
     margin: auto;
@@ -46,6 +47,7 @@ footer {
 }
 footer > p > a {
     text-decoration: none;
+    color: black;
     font-weight: bolder;
 }
 footer > p > a:hover {
