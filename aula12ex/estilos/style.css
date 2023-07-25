@@ -4,7 +4,7 @@
     --cor2:#D9F5FF;
     --cor3:#638C99;
 }
-body, html{
+body{
     margin: 0px;
     padding: 0px;
     background-color: lightblue;
@@ -21,19 +21,31 @@ section {
     display: block;
     margin: auto;
     width: 400px;
-    height: 500px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
     background-color: var(--cor2);
+    text-align: center;
+}
+
+div#msg {
+    padding: 10px;
+}
+
+div#img {
+    padding: 20px;
+}
+
+img#imagem {
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.219);
 }
 
 footer {
     text-align: center;
-    color: var(--cor3);
+    padding-top: 50px;
 }
 footer > p > a {
     text-decoration: none;
-    color: var(--cor3);
     font-weight: bolder;
 }
 footer > p > a:hover {
