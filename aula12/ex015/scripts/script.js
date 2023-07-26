@@ -11,6 +11,9 @@ function verificar() {
         var idade = ano - Number(fano.value)
         var gen = ''
         var img = document.createElement('img')
+        img.style.display = 'block'
+        img.style.margin = 'auto'
+        img.style.paddingTop = '10px'
         if (fsex[0].checked) {
             gen = 'Homem'
             if (idade >= 0 && idade < 5){

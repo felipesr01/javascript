@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-    --cor1:#ADD8E6;
+    --cor1:#add8e6;
     --cor2:#D9F5FF;
-    --cor3:#638C99;
+    --cor3:#486872;
 }
 body{
     margin: 0px;
     padding: 0px;
-    background-color: white;
+    background-color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4em;
-    color: black;
+    color: var(--cor3);
 }
 
 header {
@@ -41,13 +41,28 @@ img#imagem {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.219);
 }
 
+input#botao{
+    display: block;
+    margin: auto;
+    border: none;
+    height: 50px;
+    width: 300px;
+    background-color: var(--cor1);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input#botao:hover{
+    background-color: #6ca5b8;
+}
+
 footer {
     text-align: center;
     padding-top: 50px;
 }
 footer > p > a {
     text-decoration: none;
-    color: black;
+    color: var(--cor3);
     font-weight: bolder;
 }
 footer > p > a:hover {
