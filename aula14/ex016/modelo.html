@@ -10,14 +10,25 @@
 </head>
 <body>
     <header>
-        <h1>Modelo</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section id="area">
         <div>
-            div1
+            <label for="inicio">Inicio</label>
+            <input type="number" name="inicio" id="inicio">
+            <br>
+
+            <label for="fim">Fim</label>
+            <input type="number" name="fim" id="fim">
+            <br>
+
+            <label for="passo">Passo</label>
+            <input type="number" name="passo" id="passo">
+            <br>
+            <input type="button" value="Contar" onclick="contar()">
         </div>
         <div id="res">
-            div2
+            Preparando a contagem...
         </div>
 
         <div>
