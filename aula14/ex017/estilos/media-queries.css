@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body {
+        font-size: 1.3em;
+    }
+    section {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body {
+        font-size: 1.3em;
+    }
+
+    section {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    body {
+        font-size: 1.3em;
+    }
+
+    section {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    body {
+        font-size: 1.3em;
+    }
+    section {
+        width: 700px;
+        font-size: 1em;
+    }
+}
